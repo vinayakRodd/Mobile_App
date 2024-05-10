@@ -37,7 +37,7 @@ function authenticate(){
         document.getElementById("user").value=""
         document.getElementById("pwd").value=""
         alert("Access Denied, Invalid User or Password")
-        window.location="./login.html"
+        window.location="/index.html"
     }
 }
 
