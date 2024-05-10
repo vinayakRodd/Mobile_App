@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Money.css">
+    <title>Document</title>
+</head>
+<script>
+    var Status = sessionStorage.getItem("Pin")
+    if(Status == "false")
+    window.location = "../GooglePayApp/GpLogin.html"
+    
+    
+        var audio = new Audio("./GPSound.mp3")
+        audio.play();
+    
+
+        var audio1 = new Audio("./Successful.mp3");
+        audio1.play();
+    
+    
+    
+</script>
+<body >
+
+    <div class="Animation">
+        <div class="CheckStatus">
+            <h2 >Transaction Status : Successfull Transaction...</h2>
+        </div>
+
+        
+        <div class="CheckPoint">
+
+        </div>
+        
+    </div>
+</body>
+</html>

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Transaction/node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./mobile.css">
+    <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+    <title>Mobile Apps</title>
+</head>
+<script>
+    let userCheck = sessionStorage.getItem("user")
+    if(!userCheck)
+    window.location = "./index.html"
+</script>
+<body>
+
+    <h1>My Mobile Apps</h1><br>
+    <div class="Help">
+        <h3>Press H for Help</h3><br>
+    </div>
+    <select id="SearchBox" autofocus >
+        <option id="InitialSearch">Search for Apps</option>
+        <option>Udemy</option>
+        <option>Instagram</option>
+        <option>Drive</option>
+        <option>Twitter</option>
+        <option>TradeView</option>
+        <option>Youtube</option>
+        <option>Calculator</option>
+        <option>Whatsapp</option>
+        <option>Meet</option>
+        <option>Ola</option>
+        <option>Gpay</option>
+        <option>Spotify</option>
+        <option>Uber</option>
+        <option>End</option>
+    </select>
+
+<div  class="container">
+        
+    <div class="OpenAI">
+        <button class="App A">A</button>
+        <footer class="AI">ChatGpt</footer>
+    </div>
+
+    <div class="SearchEngine">
+        <button class="App G">G</button>
+        <footer class="Google">Google</footer>
+    </div>
+
+    <div class="Mail">
+        <button class="App M">M</button>
+        <footer class="Gmail">Gmail</footer>
+    </div>
+
+    <div class="Drive">
+        <button class="App D">D</button>
+        <footer class="GDrive">Drive</footer>
+    </div>
+
+
+    <div class="Trade">
+        <button class="App T">T</button>
+        <footer class="TV">TradeView</footer>
+    </div>
+    
+    <div class="Twitter">
+        <button class="App X">X</button>
+        <footer class="XT">Twitter</footer>
+    </div>
+    
+    <div class="Meeting">
+        <button class="App m">m</button>
+        <footer class="Gmeet">Meet</footer>
+    </div>
+    
+    <div class="UL">
+        <button class="App L">L</button>
+        <footer class="Udemy">Udemy</footer>
+    </div>
+
+    <div class="Olao">
+        <button class="App O">O</button>
+        <footer class="Ola">Ola</footer>
+    </div>
+    
+    <div class="GP">
+        <button class="App P">P</button>
+        <footer class="Gpay">Gpay</footer>
+    </div>
+    
+    <div class="Timepass">
+        <button class="App I">I</button>
+        <footer class="Insta">Instagram</footer>
+    </div>
+    
+    <div class="Song">
+        <button class="App S">S</button>
+        <footer class="Spotify">Spotify</footer>
+    </div>
+
+    <div class="You">
+        <button class="App Y">Y</button>
+        <footer class="Youtube">Youtube</footer>
+    </div>
+
+    <div class="Chat">
+        <button class="App W">W</button>
+        <footer class="Whatsapp">Whatsapp</footer>
+    </div>
+
+    <div class="BookU">
+        <button class="App U">U</button>
+        <footer class="Uber">Uber</footer>
+    </div>
+
+    <div class="Calci">
+        <button class="App C">C</button>
+        <footer class="Calculator">Calculator</footer>
+    </div>
+
+    <div class="End">
+        <button class="App E">E</button>
+        <footer class="Exit">Exit</footer>
+    </div>
+    
+    
+
+</div>
+
+
+<script src="./mobile.js"></script>
+</body>
+</html>

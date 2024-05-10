@@ -1,0 +1,140 @@
+
+
+
+.QR,.Money,.history,.recharge,.UpiId,.Contacts,.Bills,.STransfer{
+    
+    height: 19.2vw;
+    width: 19.3vw;
+    margin: .148vw;
+}
+
+
+.GPage{
+    text-align: center;
+    
+}
+
+.Q,.T,.H,.R,.U,.C,.B,.S{
+    
+    height: 12.8vw;
+    width:17.3vw;
+    border-radius: 2.2vw;
+    background-position:center;
+    background-repeat: no-repeat;
+    height: 100%;
+    font-size: 2.5vw;
+    font-family: 'Arvo', cursive;
+    line-height: 2;
+    font-weight: 900;
+    color: blue;
+    text-shadow: .2vw white;
+    border: solid black;
+
+}
+
+#GpayImg{
+    background-image: url("./imagesGP/GpBg.jpeg");
+    height: 16.5vw;
+    width: 92vw;
+    background-size: cover;
+    background-position: initial;
+    background-repeat: no-repeat;
+    
+    
+}
+
+.qr,.SM,.TH,.MR,.UI,.CN,.BL,.SF{
+    clear: both;
+    margin-left: 3vw;
+    font-family: cursive;
+    font-size: 3vw;
+    color: black;
+    
+}
+
+.box{
+    margin-top: 7vw;
+    margin-left: 7vw;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 7vw;
+    
+}
+
+.Q,.T,.S,.R,.U,.C,.B,.H{
+
+    height:2vw;
+    width: 2vw;
+}
+
+.icon{
+    transition: transform 0.3s ease;
+}
+
+.icon:hover, .icon:active{
+    transform: translateY(-20px);
+}
+
+
+.pressed {
+    box-shadow: 0 .22vw .28vw 0 gray;
+    opacity: 0.5;
+    border: grey;
+    }
+
+.Q{
+    background-image: url("./imagesGP/QR.jpg");
+    height: 15.8vw;
+    width:15.3vw;
+    background-size: 15.3vw 15.3vw;
+}
+
+.T{
+    background-image: url("./imagesGP/Sendmoney.png");
+    height: 15.8vw;
+    width:15.3vw;
+    background-size: 15.3vw 15.3vw;
+}
+
+.H{
+    background-image: url("./imagesGP/history.jpeg");
+    height: 15.8vw;
+    width:15.3vw;
+    background-size: 15.3vw 15.3vw;
+}
+
+.R{
+    background-image: url("./imagesGP/recharge.png");
+    height: 15.8vw;
+    width:15.3vw;
+    background-size: 15.3vw 15.3vw;
+}
+
+.U{
+    background-image: url("./imagesGP/UpiId.png");
+    height: 15.8vw;
+    width:15.3vw;
+    background-size: 15.3vw 15.3vw;
+}
+
+.C{
+    background-image: url("./imagesGP/contacts.png");
+    height: 15.8vw;
+    width:15.3vw;
+    background-size: 15.3vw 15.3vw;
+}
+
+.B{
+    background-image: url("./imagesGP/Bills.png");
+    height: 15.8vw;
+    width:15.3vw;
+    background-size: 15.3vw 15.3vw;
+}
+
+.S{
+    background-image: url("./imagesGP/Selftransfer.png");
+    height: 15.8vw;
+    width:15.3vw;
+    background-size: 15.3vw 15.3vw;
+}
+

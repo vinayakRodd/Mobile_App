@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./Money.css">
+    <title>Document</title>
+</head>
+
+<body class="Gateway">
+    <h1>Payment Gateway</h1>
+    <div class="Payment">
+        <input class="form-control w-75 " type="text" id="receiver" autofocus placeholder="Send to ">
+        <input class="form-control w-75 " type="text" id="amount" placeholder="Amount to Pay">
+        <button class="form-control w-75 " id="Pay" onclick="pay()">Pay</button>
+    </div>
+
+    <script src="./money.js"></script>
+</body>
+</html>

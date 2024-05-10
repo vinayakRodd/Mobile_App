@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./login.css">
+    <title>Document</title>
+</head>
+<script>
+
+    var receiver = sessionStorage.getItem("receiver")
+    if(!receiver)
+    window.location = "../Stats/Money.html"
+
+</script>
+
+<body class="PinCode">
+    
+    <h1 id="message">Enter the button</h1>
+    <button class="form-control w-25 m-5" id="TextContent" onclick="checktext()">To Reveal the Instruction</button>
+
+    <div class="PinBox">
+        <input id="input1" oninput="moveFocus()" class="Pin P1" type="password"  maxlength="1" >
+        <input id="input2" oninput="moveFocus()" class="Pin P2" type="password" maxlength="1">
+        <input id="input3" oninput="moveFocus()" class="Pin P3" type="password" maxlength="1">
+        <input id="input4" oninput="moveFocus()" class="Pin P4" type="password" maxlength="1">
+    </div>
+
+    <script src="./Pin.js"></script>
+</body>
+</html>

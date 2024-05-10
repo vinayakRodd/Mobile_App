@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Transaction.css">
+    <title>Document</title>
+</head>
+
+<script>
+    let user = sessionStorage.getItem("Pin")
+    if(!user)
+    window.location = "./GpLogin.html"
+</script>
+
+<body class="GPage">
+    <div id="GpayImg"></div>
+    <div class="box">
+        <div class="QR">
+            <button class="icon Q">Q</button>
+            <footer class="qr">QR CODE</footer>
+        </div>
+
+        <div class="Money">
+            <button class="icon T">T</button>
+            <footer class="SM">Send Money</footer>
+        </div>
+
+        <div class="history">
+            <button class="icon H">H</button>
+            <footer class="TH">Transaction history</footer>
+        </div>
+
+        <div class="recharge">
+            <button class="icon R">R</button>
+            <footer class="MR">Mobile Recharge</footer>
+        </div>
+
+        <div class="UpiId">
+            <button class="icon U">U</button>
+            <footer class="UI">Upi Id</footer>
+        </div>
+
+        <div class="Contacts">
+            <button class="icon C">C</button>
+            <footer class="CN">Contacts</footer>
+        </div>
+
+        <div class="Bills">
+            <button class="icon B">B</button>
+            <footer class="BL">Bills</footer>
+        </div>
+
+        <div class="STransfer">
+            <button class="icon S">S</button>
+            <footer class="SF">SelfTransfer</footer>
+        </div>
+    </div>
+
+    <script src="./GP.js"></script>
+</body>
+</html>

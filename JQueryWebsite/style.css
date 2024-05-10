@@ -1,0 +1,61 @@
+
+.Symbol{
+
+        height:10vw;
+        width: 13.6vw;
+        background-size: 20vw 20vw;
+        
+}
+
+.IgniteBox{
+    display: flex;
+    gap: 13vw;
+}
+
+#title{
+    font-size: 4vw;
+    color: red;
+}
+
+#Heading1{
+    margin-left: 7vw;
+    font-size: 5vw;
+}
+
+#BrainStorming{
+    height: 30vw;
+    width: 55vw;
+    border-radius: 3vw;
+    margin-left: 20vw;
+}
+
+select{
+    height: 3vw;
+    width: 5vw;
+    margin-top: 3vw;
+    border-radius: 2vw;
+}
+
+#initialSearch{
+
+    height: 3vw;
+    width: 5vw;
+    
+    
+}
+
+#Languages{
+
+    display: flex;
+    gap: 2vw;
+    margin-left: 10vw;
+}
+
+.lang{
+    height: 19vw;
+    width: 19vw;
+    border-radius: .3vw;
+}
+
+
+

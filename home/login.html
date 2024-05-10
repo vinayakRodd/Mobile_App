@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./home.css">
+
+
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="box">
+        <h1>Login Page</h1>
+        <input type="text" class="form-control w-75 m-5" id="user" placeholder="User" autofocus maxlength="11">
+        <input type="password" class="form-control w-75 m-5" id="pwd" placeholder="Password" maxlength="7">
+        <button  id="login" class="form-control w-75 m-5" onclick="authenticate()" >Login</button>
+    </div>
+
+    <script src="./authenticate.js"></script>
+</body>
+</html>

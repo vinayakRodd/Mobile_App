@@ -1,0 +1,84 @@
+.P1,.P2,.P3,.P4{
+
+    height:5vw;
+    width: 5vw;
+    border:solid black;
+    border-width: 0vw 0vw .1480vw .148vw ;
+    text-align: center;
+    font-size: 2.5vw;
+    color: red;
+}
+
+input[type=password]:focus{
+    color: red;
+    font-size: 1.5rem;
+}
+
+
+
+h1{
+    text-align: center;
+
+    font-family:cursive;
+    color: aqua;
+}
+
+
+.PinBox{
+    display: flex;
+    justify-content:center;
+    margin-top: 14vw;
+    gap: 3vw;
+}
+
+
+.PinCode{
+    background-image: url("./imagesGP/earth1.jpg");
+    background-repeat: no-repeat;
+    background-position:initial;
+    background-size: cover;
+    height:132vw;
+    width: 100vw;
+    
+}
+
+
+
+@media (max-width:780px){
+
+
+    .P1,.P2,.P3,.P4{
+        height:9vw;
+        width: 9vw;
+        
+        
+    }
+}
+
+
+
+@media (min-width:1200px) and (max-width:1586px){
+
+    .PinCode{
+        background-image: url("./imagesGP/earth1.jpg");
+        background-repeat: no-repeat;
+        background-position:initial;
+        background-size: cover;
+        height:900px;
+        width: 1000px;
+        
+    }
+
+    .PinBox{
+        display: flex;
+        justify-content:center;
+        margin-top: 11vw;
+        gap: 3vw;
+        margin-left: 500px
+    }
+
+    h1{
+        margin-left: 500px;
+    }
+}
+

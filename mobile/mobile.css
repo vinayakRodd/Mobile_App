@@ -1,0 +1,377 @@
+.App{
+
+    outline: none;
+    border: 0.8vw solid white;
+    font-size:8vw;
+    font-family: 'Arvo', cursive;
+    line-height: 2;
+    font-weight: 100;
+    color: #DA0463;
+    text-shadow: .2vw 0 #DBEDF3;
+    border-radius: 1vw;
+    text-align: center;
+    background-color: white;
+    background-repeat: no-repeat;
+    transition: transform 0.3s ease;
+    border-radius: 16.5vw;
+    margin-left: 5vw;
+    
+    
+}
+
+#InitialSearch{
+    text-align: center;
+}
+
+
+#SearchBox{
+    margin-left: 10vw;
+    height: 9vw;
+    width: 80vw;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 6vw;
+    font-size: 3vw;
+    background-color: whitesmoke;
+    
+}
+
+.App:hover, .App:active{
+    transform:translateY(-20px);
+    
+}
+
+h3{
+    font-family: cursive;
+    color: white;
+    font-size: 1.5rem;
+    
+}
+
+.Bounce{
+
+    transform: translateY(-40px);
+    
+    
+}
+
+.Help{
+    margin-left: 11vw;
+}
+
+    
+
+.A,.L,.m,.C,.G,.M,.D,.T,.P,.I,.O,.S,.E,.X,.U,.W,.Y{
+        width: 2vw;
+        height: 2vw;
+        
+}
+
+
+
+
+.container{
+    display: flex;
+    flex-wrap:wrap;
+    gap: 18.2vw;
+    font-size: 2rem;
+    margin-top: 50px;
+    
+}
+
+.Calci,.End{
+
+        margin-bottom: 50px;
+}
+
+
+
+body{
+    background-image: url("./images/BlackBlue.avif");
+    height: 280vw;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+    
+}
+
+.name{
+    display: block;
+    gap: 0px;
+    height: 400px;
+    width:290px;
+    float: inline-start;
+}
+
+
+
+h1{
+    text-align: center;
+    color: red;
+}
+
+.pressed {
+    box-shadow: 0 3px 4px 0 #DBEDF3;
+    opacity: 0.5;
+    }
+
+
+.A{
+        background-image: url("./images/Chatgpt1.webp");
+        height: 20vw;
+        width: 20vw;
+        background-position: initial;
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-size:19.5vw 19.5vw;
+        
+    }
+
+.L{
+        background-image: url("./images/udemy.jpeg");
+        height: 20vw;
+        width: 20vw;
+        background-size:19.5vw 19.5vw;
+        
+    }
+
+
+.m{
+        background-image: url("./images/Communication.png");
+        height: 20vw;
+        width: 20vw;
+        background-size:19.5vw 19.5vw;
+    }
+
+.C{
+    background-image: url("./images/Calculator.png");
+    height: 20vw;
+    width: 20vw;
+    background-size:19.5vw 19.5vw;
+}
+
+
+.G{
+    background-image: url("./images/Google.png");
+    height: 20vw;
+    width: 20vw;
+    background-size:19.5vw 19.5vw;
+}
+
+.M{
+    background-image: url("./images/gmail2.jpg");
+    height: 20vw;
+    width: 20vw;
+    background-size:19vw 17vw;
+}
+
+
+.D{
+    background-image: url("./images/Drive.png");
+    height: 20vw;
+    width: 20vw;
+    background-size:19.5vw 19.5vw;
+}
+
+
+.T{
+    background-image: url("./images/TradingView.png");
+    height: 20vw;
+    width: 20vw;
+    background-size:18.5vw 18.5vw;
+}
+
+
+.P{
+    background-image: url("./images/Gpay1.png");
+    height: 20vw;
+    width: 20vw;
+    background-size:19.5vw 19.5vw;
+    background-position: initial;
+    background-repeat: no-repeat;
+    background-size:cover;
+    border:groove;
+}
+
+
+
+.I{
+    background-image: url("./images/instagram.jpeg");
+    height: 20vw;
+    width: 20vw;
+    background-size:19.5vw 19.5vw;
+}
+
+
+
+.O{
+    background-image: url("./images/Ola.png");
+    height: 20vw;
+    width: 20vw;
+    background-size:19.5vw 19.5vw;
+}
+
+
+
+
+.S{
+    background-image: url("./images/Spotify.png");
+    height: 20vw;
+    width: 20vw;
+    background-size:19.5vw 19.5vw;
+}
+
+.E{
+    background-image: url("./images/exit.png");
+    height: 20vw;
+    width: 20vw;
+    background-size:19.5vw 19.5vw;
+}
+
+
+
+.X{
+    background-image: url("./images/twitter.png");
+    height: 20vw;
+    width: 20vw;
+    background-size:19.5vw 19.5vw;
+}
+
+
+.U{
+    background-image: url("./images/uber1.svg");
+    height: 20vw;
+    width: 20vw;
+    background-size:19.5vw 19.5vw;
+}
+
+
+
+.W{
+    background-image: url("./images/whatsapp.jpeg");
+    height: 20vw;
+    width: 20vw;
+    background-size:19.5vw 19.5vw;
+}
+
+
+
+.Y{
+    background-image: url("./images//Youtube.png");
+    height: 20vw;
+    width: 20vw;
+    background-size:19.5vw 19.5vw;
+}
+
+.OpenAI,.SearchEngine,.Mail,.Drive,.Trade,.Twitter,.Meeting,.UL,.Olao,.GP,.Timepass,.Song,.You,.Chat,.BookU,.Calci,.End{
+    height: 7vw;
+    width: 7vw;
+    margin: 30px;
+    margin-left: .2vw;
+}
+
+
+.AI,.Google,.GDrive,.XT,.Gmeet,.Udemy,.Gpay,.Spotify,.Youtube{
+    clear: both;
+    margin-left: 10vw;
+    width: 5vw;
+    height: 5vw;
+    font-size: 3vw;
+    color: white;
+    font-family: cursive;
+
+}
+
+
+.TV{
+    clear: both;
+    margin-left: 8vw;
+    width: 5vw;
+    height: 5vw;
+    font-size: 3vw;
+    color: white;
+    font-family: cursive;
+}
+
+.Ola{
+    clear: both;
+    margin-left: 13vw;
+    width: 5vw;
+    height: 5vw;
+    font-size: 3vw;
+    color: white;
+    font-family: cursive;
+}
+
+.Whatsapp{
+    clear: both;
+    margin-left: 8vw;
+    width: 5vw;
+    height: 5vw;
+    font-size: 3vw;
+    color: white;
+    font-family: cursive;
+}
+
+.Insta{
+    clear: both;
+    margin-left: 8vw;
+    width: 5vw;
+    height: 5vw;
+    font-size: 3vw;
+    color: white;
+    font-family: cursive;
+}
+
+.Calculator{
+    clear: both;
+    margin-left: 8vw;
+    width: 5vw;
+    height: 5vw;
+    font-size: 3vw;
+    color: white;
+    font-family: cursive;
+}
+
+.Exit{
+    clear: both;
+    margin-left: 12vw;
+    width: 5vw;
+    height: 5vw;
+    font-size: 3vw;
+    color: white;
+    font-family: cursive;
+}
+
+.Uber{
+    clear: both;
+    margin-left: 12vw;
+    width: 5vw;
+    height: 5vw;
+    font-size: 3vw;
+    color: white;
+    font-family: cursive;
+}
+
+.Gmail{
+    clear: both;
+    margin-left: 11vw;
+    width: 5vw;
+    height: 5vw;
+    font-size: 3vw;
+    color: white;
+    font-family: cursive;
+}
+
+
+
+
+
+
+
+
+
+
+
+
