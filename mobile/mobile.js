@@ -191,16 +191,13 @@ function appOpen(key){
                 window.location = "https://calculator.apps.chrome/"
                 break;
 
-        case "M":
-                window.location = "https://mail.google.com/mail/u/0/?hl=en_GB#inbox"
-                break;
 
         case "m":
                 window.location = "https://meet.google.com/?pli=1"
                 break;
 
         case "L":
-                window.location = "https://www.udemy.com/course/the-complete-web-development-bootcamp/learn/lecture/37350588#questions"
+                window.location = "https://www.udemy.com/"
                 break;
     
 
@@ -210,7 +207,7 @@ function appOpen(key){
     
 
         case "M":
-                window.location = "https://mail.google.com/mail/u/0/?hl=en_GB#inbox"
+                window.location = "https://www.gmail.com/"
                 break;
 
 
